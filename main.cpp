@@ -1,31 +1,29 @@
-/** @file */
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
 
-/**
- * \brief   The function bar.
- *
- * \details This function does something which is doing nothing. So this text
- *          is totally senseless and you really do not need to read this,
- *          because this text is basically saying nothing.
- *
- * \note    This text shall only show you, how such a \"note\" section
- *          is looking. There is nothing which really needs your notice,
- *          so you do not really need to read this section.
- *
- * \param[in]     a    Description of parameter a.
- * \param[out]    b    Description of the parameter b.
- * \param[in,out] c    Description of the parameter c.
- *
- * \return        The error return code of the function.
- *
- * \retval        ERR_SUCCESS    The function is successfully executed
- * \retval        ERR_FAILURE    An error occurred
- */
-void fn(){
+using namespace std;
+//Rough Draft of CSV writing 
 
+//Set file name and data columns
+bool writeDatatoFile(string file_name, string data_one, string data_two);
+
+//Data to input,sta
+int main(){
+  bool writetoFile = writeDatatoFile("data.csv", "3", "56");
+
+  return 0;
 }
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+//Call function
+bool writeDatatoFile(string file_name, string data_one, string data_two){
+
+  //Read file and set coulmns
+  ofstream file;
+  file.open(file_name, ios_base::app);
+  file << data_one << "," << data_two << endl;
+  file.close();
+
+  return true;
 }
