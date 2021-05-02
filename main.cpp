@@ -36,14 +36,24 @@ int main(int argc, char *argv[]){
   return 0;
 }
 
-//Call function
-bool writeDatatoFile(string file_name, string data_one, string data_two){
+//Print out Data
+cout << "File is                    :" << filelength << " bytes." << endl;
 
-  //Read file and set coulmns
-  ofstream file;
-  file.open(file_name, ios_base::app);
-  file << data_one << "," << data_two << endl;
-  file.close();
+        cout << "RIFF header                :" << wavHeader.RIFF[0] 
+                                                << wavHeader.RIFF[1] 
+                                                << wavHeader.RIFF[2] 
+                                                << wavHeader.RIFF[3] << endl;
 
-  return true;
-}
+        cout << "WAVE header                :" << wavHeader.WAVE[0] 
+                                                << wavHeader.WAVE[1] 
+                                                << wavHeader.WAVE[2] 
+                                                << wavHeader.WAVE[3] 
+                                                << endl;
+
+        cout << "FMT                        :" << wavHeader.fmt[0] 
+                                                << wavHeader.fmt[1] 
+                                                << wavHeader.fmt[2] 
+                                                << wavHeader.fmt[3] 
+                                                << endl;
+
+        cout << "Data size                  :" << wavHeader.ChunkSize << endl;
