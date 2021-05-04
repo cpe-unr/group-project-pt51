@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['final_20project_20_28group_2051_29',['Final Project (Group 51)',['../index.html',1,'']]]
+  ['cs_20202_20semester_20project_20template',['CS 202 Semester Project Template',['../index.html',1,'']]]
 ];
