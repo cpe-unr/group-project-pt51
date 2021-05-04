@@ -2,8 +2,8 @@
 
 MetaData::MetaData(std::ifstream& file){
   
-  file.read(mdID, sizeof(mdID));
-  file.read((char*)&mdSize, sizeOf(mdSize));
+  (mdID, sizeof(mdID));
+  ((char*)&mdSize, sizeOf(mdSize));
   buffer.resize(mdSize);
   fileread(&buffer[0], mdSize);
   
