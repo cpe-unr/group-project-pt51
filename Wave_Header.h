@@ -3,7 +3,9 @@
 
 #ifndef WAVE_HEADER_H
 #define WAVE_HEADER_H
-
+/**
+* This is a Wave Header struct 
+*/
 typedef struct Wave_Header 
 {
 

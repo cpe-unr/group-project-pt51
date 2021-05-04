@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['wave_5fheader',['Wave_Header',['../d3/d33/structWave__Header.html',1,'']]]
+  ['noisegate',['NoiseGate',['../classNoiseGate.html',1,'']]],
+  ['normalization',['Normalization',['../classNormalization.html',1,'']]]
 ];

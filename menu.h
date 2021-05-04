@@ -7,6 +7,10 @@
 using namespace std;
 
 template<typename T>
+
+/**
+* This is a Menu class
+*/
 class menu{
 
     private:
@@ -16,8 +20,16 @@ class menu{
 
     public:
 	//default ctor
+/**
+* Base Constructor
+*/
 	menu();
 	//parameterized ctor
+	
+/**
+* Constructor that takes in the useChoice template 
+* @param userChoice - Template for users to choose options
+*/
 	menu(T userChoice);
 
 	//int getMenuChoice();
@@ -25,6 +37,7 @@ class menu{
 	T switchState();
 
 };
+
 
 template<typename T>
 menu<T>::menu(){
@@ -36,6 +49,9 @@ template<typename T>
 menu<T>::menu(T userChoice) : userChoice(userChoice){
 }
 
+/**
+* This is our template T using switch cases for the user interface
+*/
 template<typename T>
 T menu<T>::switchState(){
 //wavManager and wavIO class, pass in objects of those class to menu, in default ctor of menu set equal to class, and in main.cpp wavManager and wavIO get created first, then create menu and pass in objects via constructor

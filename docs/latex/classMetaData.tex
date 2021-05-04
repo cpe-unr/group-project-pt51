@@ -1,0 +1,107 @@
+\hypertarget{classMetaData}{}\section{Meta\+Data Class Reference}
+\label{classMetaData}\index{Meta\+Data@{Meta\+Data}}
+
+
+{\ttfamily \#include $<$meta\+Data.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMetaData_a666d1eea92f7243c39dae95de0352b11}{Meta\+Data} ()=default
+\item 
+\hyperlink{classMetaData_aac49325e3507e976fb41690bfa6be536}{Meta\+Data} (std\+::ifstream \&)
+\item 
+std\+::string \hyperlink{classMetaData_ad46cdaa2d7d988b9f73cd3c438dd9cb9}{get\+Md\+ID} () const
+\item 
+void \hyperlink{classMetaData_ad16be865033e4856cf1eaab2dd6e5409}{set\+Md\+ID} (char) const
+\item 
+int \hyperlink{classMetaData_ab013c35f16c09bc6e69164c2c6df5b46}{get\+Md\+Size} () const
+\item 
+void \hyperlink{classMetaData_aa500b5bcfc28dfc1f0b32b7fcdca108f}{set\+Md\+Size} (int)
+\item 
+std\+::string \hyperlink{classMetaData_a105bbcd8cfee4f70c0942ec67154079a}{get\+Buffer} () const
+\item 
+void \hyperlink{classMetaData_a8993ecf3ca590b956fd1c7383a3f5c24}{set\+Buffer} (std\+::string)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is an \hyperlink{classMetaData}{Meta\+Data} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMetaData_a666d1eea92f7243c39dae95de0352b11}\label{classMetaData_a666d1eea92f7243c39dae95de0352b11}} 
+\index{Meta\+Data@{Meta\+Data}!Meta\+Data@{Meta\+Data}}
+\index{Meta\+Data@{Meta\+Data}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{Meta\+Data()}{MetaData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Meta\+Data\+::\+Meta\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+This is the base constructor \mbox{\Hypertarget{classMetaData_aac49325e3507e976fb41690bfa6be536}\label{classMetaData_aac49325e3507e976fb41690bfa6be536}} 
+\index{Meta\+Data@{Meta\+Data}!Meta\+Data@{Meta\+Data}}
+\index{Meta\+Data@{Meta\+Data}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{Meta\+Data()}{MetaData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Meta\+Data\+::\+Meta\+Data (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{file }\end{DoxyParamCaption})}
+
+Constructor that is responsible for reading the metadata 
+\begin{DoxyParams}{Parameters}
+{\em file} & -\/ address of the data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classMetaData_aac49325e3507e976fb41690bfa6be536_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classMetaData_a105bbcd8cfee4f70c0942ec67154079a}\label{classMetaData_a105bbcd8cfee4f70c0942ec67154079a}} 
+\index{Meta\+Data@{Meta\+Data}!get\+Buffer@{get\+Buffer}}
+\index{get\+Buffer@{get\+Buffer}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{get\+Buffer()}{getBuffer()}}
+{\footnotesize\ttfamily std\+::string Meta\+Data\+::get\+Buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter of buffer \mbox{\Hypertarget{classMetaData_ad46cdaa2d7d988b9f73cd3c438dd9cb9}\label{classMetaData_ad46cdaa2d7d988b9f73cd3c438dd9cb9}} 
+\index{Meta\+Data@{Meta\+Data}!get\+Md\+ID@{get\+Md\+ID}}
+\index{get\+Md\+ID@{get\+Md\+ID}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{get\+Md\+I\+D()}{getMdID()}}
+{\footnotesize\ttfamily std\+::string Meta\+Data\+::get\+Md\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter of metadata ID Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classMetaData_ad46cdaa2d7d988b9f73cd3c438dd9cb9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMetaData_ab013c35f16c09bc6e69164c2c6df5b46}\label{classMetaData_ab013c35f16c09bc6e69164c2c6df5b46}} 
+\index{Meta\+Data@{Meta\+Data}!get\+Md\+Size@{get\+Md\+Size}}
+\index{get\+Md\+Size@{get\+Md\+Size}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{get\+Md\+Size()}{getMdSize()}}
+{\footnotesize\ttfamily int Meta\+Data\+::get\+Md\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter of metadata size \mbox{\Hypertarget{classMetaData_a8993ecf3ca590b956fd1c7383a3f5c24}\label{classMetaData_a8993ecf3ca590b956fd1c7383a3f5c24}} 
+\index{Meta\+Data@{Meta\+Data}!set\+Buffer@{set\+Buffer}}
+\index{set\+Buffer@{set\+Buffer}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{set\+Buffer()}{setBuffer()}}
+{\footnotesize\ttfamily void Meta\+Data\+::set\+Buffer (\begin{DoxyParamCaption}\item[{std\+::string}]{buffer }\end{DoxyParamCaption})}
+
+Setter of buffer Returns a string \mbox{\Hypertarget{classMetaData_ad16be865033e4856cf1eaab2dd6e5409}\label{classMetaData_ad16be865033e4856cf1eaab2dd6e5409}} 
+\index{Meta\+Data@{Meta\+Data}!set\+Md\+ID@{set\+Md\+ID}}
+\index{set\+Md\+ID@{set\+Md\+ID}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{set\+Md\+I\+D()}{setMdID()}}
+{\footnotesize\ttfamily void Meta\+Data\+::set\+Md\+ID (\begin{DoxyParamCaption}\item[{char}]{ }\end{DoxyParamCaption}) const}
+
+Setter of metadata ID Returns a constant char \mbox{\Hypertarget{classMetaData_aa500b5bcfc28dfc1f0b32b7fcdca108f}\label{classMetaData_aa500b5bcfc28dfc1f0b32b7fcdca108f}} 
+\index{Meta\+Data@{Meta\+Data}!set\+Md\+Size@{set\+Md\+Size}}
+\index{set\+Md\+Size@{set\+Md\+Size}!Meta\+Data@{Meta\+Data}}
+\subsubsection{\texorpdfstring{set\+Md\+Size()}{setMdSize()}}
+{\footnotesize\ttfamily void Meta\+Data\+::set\+Md\+Size (\begin{DoxyParamCaption}\item[{int}]{md\+Size }\end{DoxyParamCaption})}
+
+Setter of metadata ID Returns a integer 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{metaData_8h}{meta\+Data.\+h}\item 
+\hyperlink{metaData_8cpp}{meta\+Data.\+cpp}\end{DoxyCompactItemize}

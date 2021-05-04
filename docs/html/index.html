@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: CS 202 Semester Project Template</title>
+<title>My Project: CS 202 Semester Project Group 51</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,15 +59,14 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">CS 202 Semester Project Template </div>  </div>
+<div class="title">CS 202 Semester Project Group 51 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Final Project (Group 51)</p>
-<ol type="1">
+<div class="textblock"><ol type="1">
 <li>Group Members: Morgan Young, Amber Hankins, and Mohagoney Moore.</li>
-<li>Morgan and Amber contributed by developing the code for the <a class="el" href="db/d9f/classProcessor.html">Processor</a>, Noise Gate, Normalizer, <a class="el" href="dc/dd7/classEcho.html">Echo</a>, Wave Header, and user interaction. Mohagoney's contributions were in creating the Doxygen documentations and writing up the report and information needed, with minor contributions to the metadata to CSV conversion in the user interface.</li>
-<li></li>
-<li>One of the major challenges faced within this project was getting the metadata from the .wav files and printing them into a CSV if the user chose to do so. The primary issue would come down to the fundamental understanding of the metadata and file I/O. </li>
+<li>Morgan and Amber contributed by writting the code for the classes needd to process the audio, like the Wave, <a class="el" href="classProcessor.html">Processor</a>, and <a class="el" href="classEcho.html">Echo</a> classes to name a few. Mohagoney wrote the documentation through Doxygen and uploaded the necessary UML graphics, as well as minor contributions to the user interface.</li>
+<li>The design was implemented developing serparate audio processing classes and pointing them in the direction of the processor. When looking at the UML graphic for <a class="el" href="classEcho.html">Echo</a>, <a class="el" href="classNormalization.html">Normalization</a>, and Noise Gate, we see an inheritance relationship between the classes. With these classes inheriting the functions of the parent <a class="el" href="classProcessor.html">Processor</a> class. There was also the use of structs in the wav class to store the data from the metadata, like the number of channels and the byte sizes for the files. We implemented the use of templates and switch cases in the case of our user interface. This would allow the user to navigate through the menu and try to decide how they want their wav file processed and allow the option to convert the metadata into a csv file.</li>
+<li>One of the challenges we encountered within the project was allowing the user the access to modify the metadata. Along with that, we had issues trying to convert the metadata into a proper csv file and adjusting the user interaction. We would say the user interaction was the most difficult overall. The next difficulty was trying to determine where to apply our templates, but we essentially just used it in the user interaction. </li>
 </ol>
 </div></div><!-- contents -->
 <!-- start footer part -->

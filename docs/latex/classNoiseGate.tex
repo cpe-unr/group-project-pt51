@@ -1,0 +1,169 @@
+\hypertarget{classNoiseGate}{}\section{Noise\+Gate Class Reference}
+\label{classNoiseGate}\index{Noise\+Gate@{Noise\+Gate}}
+
+
+{\ttfamily \#include $<$noiseg\+\_\+diag.\+h$>$}
+
+
+
+Inheritance diagram for Noise\+Gate\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{classNoiseGate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Noise\+Gate\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{classNoiseGate__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNoiseGate_ae9ccbe5934108f756ada0e492db5f71e}{Noise\+Gate} ()
+\item 
+\hyperlink{classNoiseGate_a595f0fbe191ba5eaed8b52c8f2c5049f}{Noise\+Gate} (double level)
+\item 
+double \hyperlink{classNoiseGate_a48958705ac7b9de4cfe5ae284b8fb4f6}{get\+Level} ()
+\item 
+void \hyperlink{classNoiseGate_aa03603d23e350f5d9d1e0914de862f57}{set\+Level} (double level)
+\item 
+void \hyperlink{classNoiseGate_ab2965cbd79e9bb7cd5d972967d3da678}{processor\+MonoE} (int size, unsigned char $\ast$buffer)
+\item 
+void \hyperlink{classNoiseGate_a3b6bbb8efccac794fe3abf6dbbd92c1f}{processor\+StereoE} (int sizeR, int sizeL, unsigned char $\ast$bufferR, unsigned char $\ast$bufferL)
+\item 
+void \hyperlink{classNoiseGate_a46b2ad11fa1dac657450c2299026bee4}{processor\+MonoS} (int size, short $\ast$buffer)
+\item 
+void \hyperlink{classNoiseGate_aa45ac001ec6d3dd7ad935cf92266a285}{processor\+StereoS} (int sizeR, int sizeL, short $\ast$bufferR, short $\ast$bufferL)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is a Noise Gate class 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNoiseGate_ae9ccbe5934108f756ada0e492db5f71e}\label{classNoiseGate_ae9ccbe5934108f756ada0e492db5f71e}} 
+\index{Noise\+Gate@{Noise\+Gate}!Noise\+Gate@{Noise\+Gate}}
+\index{Noise\+Gate@{Noise\+Gate}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{Noise\+Gate()}{NoiseGate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Noise\+Gate\+::\+Noise\+Gate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This is the base constructor \mbox{\Hypertarget{classNoiseGate_a595f0fbe191ba5eaed8b52c8f2c5049f}\label{classNoiseGate_a595f0fbe191ba5eaed8b52c8f2c5049f}} 
+\index{Noise\+Gate@{Noise\+Gate}!Noise\+Gate@{Noise\+Gate}}
+\index{Noise\+Gate@{Noise\+Gate}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{Noise\+Gate()}{NoiseGate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Noise\+Gate\+::\+Noise\+Gate (\begin{DoxyParamCaption}\item[{double}]{level }\end{DoxyParamCaption})}
+
+This constructor gets the noise gate level 
+\begin{DoxyParams}{Parameters}
+{\em level} & -\/ level of noise gate as a double data type \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classNoiseGate_a48958705ac7b9de4cfe5ae284b8fb4f6}\label{classNoiseGate_a48958705ac7b9de4cfe5ae284b8fb4f6}} 
+\index{Noise\+Gate@{Noise\+Gate}!get\+Level@{get\+Level}}
+\index{get\+Level@{get\+Level}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{get\+Level()}{getLevel()}}
+{\footnotesize\ttfamily double Noise\+Gate\+::get\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Getter that gets noise gate level \mbox{\Hypertarget{classNoiseGate_ab2965cbd79e9bb7cd5d972967d3da678}\label{classNoiseGate_ab2965cbd79e9bb7cd5d972967d3da678}} 
+\index{Noise\+Gate@{Noise\+Gate}!processor\+MonoE@{processor\+MonoE}}
+\index{processor\+MonoE@{processor\+MonoE}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{processor\+Mono\+E()}{processorMonoE()}}
+{\footnotesize\ttfamily void Noise\+Gate\+::processor\+MonoE (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{unsigned char $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono E 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ gets size data \\
+\hline
+{\em buffer} & -\/ gets range for data \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_aa9742b5df48a3c6442d521ce93012fc1}{Processor}.
+
+\mbox{\Hypertarget{classNoiseGate_a46b2ad11fa1dac657450c2299026bee4}\label{classNoiseGate_a46b2ad11fa1dac657450c2299026bee4}} 
+\index{Noise\+Gate@{Noise\+Gate}!processor\+MonoS@{processor\+MonoS}}
+\index{processor\+MonoS@{processor\+MonoS}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{processor\+Mono\+S()}{processorMonoS()}}
+{\footnotesize\ttfamily void Noise\+Gate\+::processor\+MonoS (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{short $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono S 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ gets size data \\
+\hline
+{\em buffer} & -\/ short integer for buffer \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_a4cf32c9f7e26383490e8fb49defcc287}{Processor}.
+
+\mbox{\Hypertarget{classNoiseGate_a3b6bbb8efccac794fe3abf6dbbd92c1f}\label{classNoiseGate_a3b6bbb8efccac794fe3abf6dbbd92c1f}} 
+\index{Noise\+Gate@{Noise\+Gate}!processor\+StereoE@{processor\+StereoE}}
+\index{processor\+StereoE@{processor\+StereoE}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+E()}{processorStereoE()}}
+{\footnotesize\ttfamily void Noise\+Gate\+::processor\+StereoE (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{unsigned char $\ast$}]{bufferR,  }\item[{unsigned char $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo E 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ gets size data for right side \\
+\hline
+{\em bufferR} & -\/ gets range for data for right side \\
+\hline
+{\em bufferL} & -\/ gets range for data for left side \\
+\hline
+{\em sizeL} & -\/ gets size data for left side \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_a637904e06d0a3b14f9e1e90fe7f3afbd}{Processor}.
+
+\mbox{\Hypertarget{classNoiseGate_aa45ac001ec6d3dd7ad935cf92266a285}\label{classNoiseGate_aa45ac001ec6d3dd7ad935cf92266a285}} 
+\index{Noise\+Gate@{Noise\+Gate}!processor\+StereoS@{processor\+StereoS}}
+\index{processor\+StereoS@{processor\+StereoS}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+S()}{processorStereoS()}}
+{\footnotesize\ttfamily void Noise\+Gate\+::processor\+StereoS (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{short $\ast$}]{bufferR,  }\item[{short $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo S 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ gets size data for right side \\
+\hline
+{\em bufferR} & -\/ short integer for buffer on right side \\
+\hline
+{\em bufferL} & -\/ short integer for buffer on left side \\
+\hline
+{\em sizeL} & -\/ gets size data for left side \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_ae3fc266daadbedfa947e596d3ff98a7c}{Processor}.
+
+\mbox{\Hypertarget{classNoiseGate_aa03603d23e350f5d9d1e0914de862f57}\label{classNoiseGate_aa03603d23e350f5d9d1e0914de862f57}} 
+\index{Noise\+Gate@{Noise\+Gate}!set\+Level@{set\+Level}}
+\index{set\+Level@{set\+Level}!Noise\+Gate@{Noise\+Gate}}
+\subsubsection{\texorpdfstring{set\+Level()}{setLevel()}}
+{\footnotesize\ttfamily void Noise\+Gate\+::set\+Level (\begin{DoxyParamCaption}\item[{double}]{level }\end{DoxyParamCaption})}
+
+Setter that gets noise gate level 
+\begin{DoxyParams}{Parameters}
+{\em level} & -\/ level of noise gate as a double data type \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{noiseg__diag_8h}{noiseg\+\_\+diag.\+h}\item 
+\hyperlink{noiseGate_8h}{noise\+Gate.\+h}\item 
+\hyperlink{noiseGate_8cpp}{noise\+Gate.\+cpp}\end{DoxyCompactItemize}

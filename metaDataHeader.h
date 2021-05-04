@@ -1,5 +1,8 @@
 #pragma once 
 
+/**
+* This is an MetaDataHeader struct
+*/
 struct MetaDataHeader{
 
   char list_ID[4];

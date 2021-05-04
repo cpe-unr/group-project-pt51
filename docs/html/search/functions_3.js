@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['processbuffer',['processBuffer',['../dc/dc7/classNoise__Gate.html#a1b30bc5ccc45774528a8f44ba0632291',1,'Noise_Gate::processBuffer()'],['../d4/d29/classLimiter.html#a7be62b79837918824c5a9c52b215d03d',1,'Limiter::processBuffer()'],['../db/d9f/classProcessor.html#a401e57b59e43de9c4a51ca0f566d2948',1,'Processor::processBuffer()']]],
-  ['processormonoe',['processorMonoE',['../dc/dd7/classEcho.html#a472cc906604bcb493c6a6c1227436938',1,'Echo']]],
-  ['processormonos',['processorMonoS',['../dc/dd7/classEcho.html#a298f9fe12295c578737928544c46be1a',1,'Echo']]],
-  ['processorstereoe',['processorStereoE',['../dc/dd7/classEcho.html#a92aa2d47f32f5ad0f2cd45121e8d457f',1,'Echo::processorStereoE(int sizeR, int sizeL, unsigned char *bufferR, unsigned char *bufferL)'],['../dc/dd7/classEcho.html#a5ac08be49218fd1a9e91a7d09aa889fc',1,'Echo::processorStereoE(int sizeR, int sizeL, short *bufferR, short *bufferL)']]]
+  ['main',['main',['../main_8cpp.html#af3ed9c200de85b53c94cd18764b246a2',1,'main(int argc, char *const argv[]):&#160;main.cpp'],['../maincopy_8cpp.html#af0aa598edfa8d4f944abef9fc6144248',1,'main(int argc, char *argv[]):&#160;maincopy.cpp']]],
+  ['mdmanager',['MdManager',['../classMdManager.html#a540aeeb85ad958cfbf074316c44d874d',1,'MdManager::MdManager()=default'],['../classMdManager.html#a9a04c96ea303f2e8d18275ba75af2551',1,'MdManager::MdManager(std::ifstream &amp;)']]],
+  ['menu',['menu',['../classmenu.html#af1685203f74243e56f880ae06443b12a',1,'menu::menu()'],['../classmenu.html#a1ba608803dbd7d3eb5d5f0c7dd58a9f3',1,'menu::menu(T userChoice)']]],
+  ['metadata',['MetaData',['../classMetaData.html#a666d1eea92f7243c39dae95de0352b11',1,'MetaData::MetaData()=default'],['../classMetaData.html#aac49325e3507e976fb41690bfa6be536',1,'MetaData::MetaData(std::ifstream &amp;)']]]
 ];

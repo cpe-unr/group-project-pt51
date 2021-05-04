@@ -1,0 +1,11 @@
+<map id="processor.h" name="processor.h">
+<area shape="rect" id="node2" href="$echo_8h.html" title="echo.h" alt="" coords="12,80,73,107"/>
+<area shape="rect" id="node4" href="$echo__diag_8h.html" title="echo_diag.h" alt="" coords="98,80,190,107"/>
+<area shape="rect" id="node5" href="$noiseg__diag_8h.html" title="noiseg_diag.h" alt="" coords="214,80,317,107"/>
+<area shape="rect" id="node6" href="$noiseGate_8h.html" title="noiseGate.h" alt="" coords="341,80,433,107"/>
+<area shape="rect" id="node8" href="$norm__diag_8h.html" title="norm_diag.h" alt="" coords="457,80,551,107"/>
+<area shape="rect" id="node9" href="$normalization_8h.html" title="normalization.h" alt="" coords="575,80,686,107"/>
+<area shape="rect" id="node3" href="$echo_8cpp.html" title="echo.cpp" alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node7" href="$noiseGate_8cpp.html" title="noiseGate.cpp" alt="" coords="333,155,440,181"/>
+<area shape="rect" id="node10" href="$normalization_8cpp.html" title="normalization.cpp" alt="" coords="569,155,693,181"/>
+</map>

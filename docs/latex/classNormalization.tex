@@ -1,0 +1,169 @@
+\hypertarget{classNormalization}{}\section{Normalization Class Reference}
+\label{classNormalization}\index{Normalization@{Normalization}}
+
+
+{\ttfamily \#include $<$norm\+\_\+diag.\+h$>$}
+
+
+
+Inheritance diagram for Normalization\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classNormalization__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Normalization\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classNormalization__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNormalization_a7998284e5456d915ebdb2520e4d74250}{Normalization} ()
+\item 
+\hyperlink{classNormalization_ac4807a0ce2a2d845bd0a8fd0f1fac662}{Normalization} (int new\+Adjust\+Level)
+\item 
+int \hyperlink{classNormalization_a8e62b273415300146b260ec18561a448}{get\+Adjust\+Level} ()
+\item 
+void \hyperlink{classNormalization_a4f80ce5334c763075e612688c03edd58}{set\+Adjust\+Level} (int new\+Adjust\+Level)
+\item 
+void \hyperlink{classNormalization_a61d6afdd8530c60ef098c2e404841683}{processor\+MonoE} (int size, unsigned char $\ast$buffer)
+\item 
+void \hyperlink{classNormalization_a27a14c9e1a86b55db654335e79c89782}{processor\+StereoE} (int sizeR, int sizeL, unsigned char $\ast$bufferR, unsigned char $\ast$bufferL)
+\item 
+void \hyperlink{classNormalization_a432fc3b7ef40314bb4d7a215fddc8d0b}{processor\+MonoS} (int size, short $\ast$buffer)
+\item 
+void \hyperlink{classNormalization_a3221f7132aa5feabc417fbf9ce97e290}{processor\+StereoS} (int sizeR, int sizeL, short $\ast$bufferR, short $\ast$bufferL)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is a \hyperlink{classNormalization}{Normalization} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNormalization_a7998284e5456d915ebdb2520e4d74250}\label{classNormalization_a7998284e5456d915ebdb2520e4d74250}} 
+\index{Normalization@{Normalization}!Normalization@{Normalization}}
+\index{Normalization@{Normalization}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{Normalization()}{Normalization()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Normalization\+::\+Normalization (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Base constructor of normalization \mbox{\Hypertarget{classNormalization_ac4807a0ce2a2d845bd0a8fd0f1fac662}\label{classNormalization_ac4807a0ce2a2d845bd0a8fd0f1fac662}} 
+\index{Normalization@{Normalization}!Normalization@{Normalization}}
+\index{Normalization@{Normalization}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{Normalization()}{Normalization()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Normalization\+::\+Normalization (\begin{DoxyParamCaption}\item[{int}]{new\+Adjust\+Level }\end{DoxyParamCaption})}
+
+\hyperlink{classNormalization}{Normalization} constructor for new adjusted level 
+\begin{DoxyParams}{Parameters}
+{\em new\+Adjusted\+Level} & -\/ takes in the new level after normalization of audio \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classNormalization_a8e62b273415300146b260ec18561a448}\label{classNormalization_a8e62b273415300146b260ec18561a448}} 
+\index{Normalization@{Normalization}!get\+Adjust\+Level@{get\+Adjust\+Level}}
+\index{get\+Adjust\+Level@{get\+Adjust\+Level}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{get\+Adjust\+Level()}{getAdjustLevel()}}
+{\footnotesize\ttfamily int Normalization\+::get\+Adjust\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Getter for adjusted level \mbox{\Hypertarget{classNormalization_a61d6afdd8530c60ef098c2e404841683}\label{classNormalization_a61d6afdd8530c60ef098c2e404841683}} 
+\index{Normalization@{Normalization}!processor\+MonoE@{processor\+MonoE}}
+\index{processor\+MonoE@{processor\+MonoE}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{processor\+Mono\+E()}{processorMonoE()}}
+{\footnotesize\ttfamily void Normalization\+::processor\+MonoE (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{unsigned char $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono E 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ gets size data \\
+\hline
+{\em buffer} & -\/ gets range for data \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_aa9742b5df48a3c6442d521ce93012fc1}{Processor}.
+
+\mbox{\Hypertarget{classNormalization_a432fc3b7ef40314bb4d7a215fddc8d0b}\label{classNormalization_a432fc3b7ef40314bb4d7a215fddc8d0b}} 
+\index{Normalization@{Normalization}!processor\+MonoS@{processor\+MonoS}}
+\index{processor\+MonoS@{processor\+MonoS}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{processor\+Mono\+S()}{processorMonoS()}}
+{\footnotesize\ttfamily void Normalization\+::processor\+MonoS (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{short $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono S 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ gets size data \\
+\hline
+{\em buffer} & -\/ short integer for buffer \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_a4cf32c9f7e26383490e8fb49defcc287}{Processor}.
+
+\mbox{\Hypertarget{classNormalization_a27a14c9e1a86b55db654335e79c89782}\label{classNormalization_a27a14c9e1a86b55db654335e79c89782}} 
+\index{Normalization@{Normalization}!processor\+StereoE@{processor\+StereoE}}
+\index{processor\+StereoE@{processor\+StereoE}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+E()}{processorStereoE()}}
+{\footnotesize\ttfamily void Normalization\+::processor\+StereoE (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{unsigned char $\ast$}]{bufferR,  }\item[{unsigned char $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo E 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ gets size data for right side \\
+\hline
+{\em bufferR} & -\/ gets range for data for right side \\
+\hline
+{\em bufferL} & -\/ gets range for data for left side \\
+\hline
+{\em sizeL} & -\/ gets size data for left side \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_a637904e06d0a3b14f9e1e90fe7f3afbd}{Processor}.
+
+\mbox{\Hypertarget{classNormalization_a3221f7132aa5feabc417fbf9ce97e290}\label{classNormalization_a3221f7132aa5feabc417fbf9ce97e290}} 
+\index{Normalization@{Normalization}!processor\+StereoS@{processor\+StereoS}}
+\index{processor\+StereoS@{processor\+StereoS}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+S()}{processorStereoS()}}
+{\footnotesize\ttfamily void Normalization\+::processor\+StereoS (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{short $\ast$}]{bufferR,  }\item[{short $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo E 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ gets size data for right side \\
+\hline
+{\em bufferR} & -\/ short integer for buffer on right side \\
+\hline
+{\em bufferL} & -\/ short integer for buffer on left side \\
+\hline
+{\em sizeL} & -\/ gets size data for left side \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classProcessor_ae3fc266daadbedfa947e596d3ff98a7c}{Processor}.
+
+\mbox{\Hypertarget{classNormalization_a4f80ce5334c763075e612688c03edd58}\label{classNormalization_a4f80ce5334c763075e612688c03edd58}} 
+\index{Normalization@{Normalization}!set\+Adjust\+Level@{set\+Adjust\+Level}}
+\index{set\+Adjust\+Level@{set\+Adjust\+Level}!Normalization@{Normalization}}
+\subsubsection{\texorpdfstring{set\+Adjust\+Level()}{setAdjustLevel()}}
+{\footnotesize\ttfamily void Normalization\+::set\+Adjust\+Level (\begin{DoxyParamCaption}\item[{int}]{new\+Adjust\+Level }\end{DoxyParamCaption})}
+
+Setter for adjusted level 
+\begin{DoxyParams}{Parameters}
+{\em new\+Adjusted\+Level} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{norm__diag_8h}{norm\+\_\+diag.\+h}\item 
+\hyperlink{normalization_8h}{normalization.\+h}\item 
+\hyperlink{normalization_8cpp}{normalization.\+cpp}\end{DoxyCompactItemize}

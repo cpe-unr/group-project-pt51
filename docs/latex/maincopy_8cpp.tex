@@ -1,0 +1,88 @@
+\hypertarget{maincopy_8cpp}{}\section{maincopy.\+cpp File Reference}
+\label{maincopy_8cpp}\index{maincopy.\+cpp@{maincopy.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}Wave\+\_\+\+Header.\+h\char`\"{}}\newline
+Include dependency graph for maincopy.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{maincopy_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Draft of C\+SV writing file name and data columns bool \hyperlink{maincopy_8cpp_ab788ef71dec44feec2734b4f074e0c00}{write\+Datato\+File} (string file\+\_\+name, string data\+\_\+one, string data\+\_\+two)
+\item 
+to sta int \hyperlink{maincopy_8cpp_af0aa598edfa8d4f944abef9fc6144248}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\hyperlink{maincopy_8cpp_af9dc4627bb719323ede8dc29ef10c6cf}{for} (int i=0;i$<$=\hyperlink{maincopy_8cpp_a96698bc868ee1ce110d30d95ea607633}{number\+Of\+Files};i++)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+to \hyperlink{maincopy_8cpp_ac3dae6f73da5fd8952a735f56fc6660d}{input}
+\item 
+out Data cout$<$$<$ \char`\"{}File is \+:\char`\"{}$<$$<$ filelength$<$$<$ \char`\"{} bytes.\char`\"{}$<$$<$ endl;cout$<$$<$ \char`\"{}R\+I\+FF header \+:\char`\"{}$<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}0\mbox{]}$<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}1\mbox{]}$<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}2\mbox{]}$<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}3\mbox{]}$<$$<$ endl;cout$<$$<$ \char`\"{}W\+A\+VE header \+:\char`\"{}$<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}0\mbox{]}$<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}1\mbox{]}$<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}2\mbox{]}$<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}3\mbox{]}$<$$<$ endl;cout$<$$<$ \char`\"{}F\+MT \+:\char`\"{}$<$$<$ wav\+Header.\+fmt\mbox{[}0\mbox{]}$<$$<$ wav\+Header.\+fmt\mbox{[}1\mbox{]}$<$$<$ wav\+Header.\+fmt\mbox{[}2\mbox{]}$<$$<$ wav\+Header.\+fmt\mbox{[}3\mbox{]}$<$$<$ endl;cout$<$$<$ \char`\"{}Data size \+:\char`\"{}$<$$<$ wav\+Header.\+Chunk\+Size$<$$<$ endl;int user\+InputC;cout$<$$<$ \char`\"{}How many processors would you like to use?\char`\"{}$<$$<$ endl;cin $>$ \hyperlink{maincopy_8cpp_a05aa176620acf40683fe4d9bbad98172}{user\+InputC}
+\item 
+int \hyperlink{maincopy_8cpp_a96698bc868ee1ce110d30d95ea607633}{number\+Of\+Files}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{maincopy_8cpp_af9dc4627bb719323ede8dc29ef10c6cf}\label{maincopy_8cpp_af9dc4627bb719323ede8dc29ef10c6cf}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!for@{for}}
+\index{for@{for}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{for()}{for()}}
+{\footnotesize\ttfamily for (\begin{DoxyParamCaption}\item[{int}]{i = {\ttfamily 0;~i~$<$=~\hyperlink{maincopy_8cpp_a96698bc868ee1ce110d30d95ea607633}{number\+Of\+Files};~i++} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{maincopy_8cpp_af0aa598edfa8d4f944abef9fc6144248}\label{maincopy_8cpp_af0aa598edfa8d4f944abef9fc6144248}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!main@{main}}
+\index{main@{main}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily to sta int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{maincopy_8cpp_af0aa598edfa8d4f944abef9fc6144248_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{maincopy_8cpp_ab788ef71dec44feec2734b4f074e0c00}\label{maincopy_8cpp_ab788ef71dec44feec2734b4f074e0c00}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!write\+Datato\+File@{write\+Datato\+File}}
+\index{write\+Datato\+File@{write\+Datato\+File}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{write\+Datato\+File()}{writeDatatoFile()}}
+{\footnotesize\ttfamily Draft of C\+SV writing file name and data columns bool write\+Datato\+File (\begin{DoxyParamCaption}\item[{string}]{file\+\_\+name,  }\item[{string}]{data\+\_\+one,  }\item[{string}]{data\+\_\+two }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{maincopy_8cpp_ab788ef71dec44feec2734b4f074e0c00_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{maincopy_8cpp_ac3dae6f73da5fd8952a735f56fc6660d}\label{maincopy_8cpp_ac3dae6f73da5fd8952a735f56fc6660d}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!input@{input}}
+\index{input@{input}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily to input}
+
+\mbox{\Hypertarget{maincopy_8cpp_a96698bc868ee1ce110d30d95ea607633}\label{maincopy_8cpp_a96698bc868ee1ce110d30d95ea607633}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!number\+Of\+Files@{number\+Of\+Files}}
+\index{number\+Of\+Files@{number\+Of\+Files}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{number\+Of\+Files}{numberOfFiles}}
+{\footnotesize\ttfamily cout$<$$<$ \char`\"{}How many files would you like to process?\char`\"{} $<$$<$ endl;cin $>$ number\+Of\+Files}
+
+\mbox{\Hypertarget{maincopy_8cpp_a05aa176620acf40683fe4d9bbad98172}\label{maincopy_8cpp_a05aa176620acf40683fe4d9bbad98172}} 
+\index{maincopy.\+cpp@{maincopy.\+cpp}!user\+InputC@{user\+InputC}}
+\index{user\+InputC@{user\+InputC}!maincopy.\+cpp@{maincopy.\+cpp}}
+\subsubsection{\texorpdfstring{user\+InputC}{userInputC}}
+{\footnotesize\ttfamily out Data cout$<$$<$ \char`\"{}File is \+:\char`\"{} $<$$<$ filelength $<$$<$ \char`\"{} bytes.\char`\"{} $<$$<$ endl; cout $<$$<$ \char`\"{}R\+I\+FF header \+:\char`\"{} $<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}0\mbox{]} $<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}1\mbox{]} $<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}2\mbox{]} $<$$<$ wav\+Header.\+R\+I\+FF\mbox{[}3\mbox{]} $<$$<$ endl; cout $<$$<$ \char`\"{}W\+A\+VE header \+:\char`\"{} $<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}0\mbox{]} $<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}1\mbox{]} $<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}2\mbox{]} $<$$<$ wav\+Header.\+W\+A\+VE\mbox{[}3\mbox{]} $<$$<$ endl; cout $<$$<$ \char`\"{}F\+MT \+:\char`\"{} $<$$<$ wav\+Header.\+fmt\mbox{[}0\mbox{]} $<$$<$ wav\+Header.\+fmt\mbox{[}1\mbox{]} $<$$<$ wav\+Header.\+fmt\mbox{[}2\mbox{]} $<$$<$ wav\+Header.\+fmt\mbox{[}3\mbox{]} $<$$<$ endl; cout $<$$<$ \char`\"{}Data size \+:\char`\"{} $<$$<$ wav\+Header.\+Chunk\+Size $<$$<$ endl;int user\+InputC;cout $<$$<$ \char`\"{}How many processors would you like to use?\char`\"{} $<$$<$ endl;cin $>$ user\+InputC}
+

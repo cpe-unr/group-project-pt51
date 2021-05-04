@@ -1,0 +1,113 @@
+\hypertarget{classProcessor}{}\section{Processor Class Reference}
+\label{classProcessor}\index{Processor@{Processor}}
+
+
+{\ttfamily \#include $<$processor.\+h$>$}
+
+
+
+Inheritance diagram for Processor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{classProcessor__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classProcessor_aa9742b5df48a3c6442d521ce93012fc1}{processor\+MonoE} (int size, unsigned char $\ast$buffer)=0
+\item 
+virtual void \hyperlink{classProcessor_a637904e06d0a3b14f9e1e90fe7f3afbd}{processor\+StereoE} (int sizeR, int sizeL, unsigned char $\ast$bufferR, unsigned char $\ast$bufferL)=0
+\item 
+virtual void \hyperlink{classProcessor_a4cf32c9f7e26383490e8fb49defcc287}{processor\+MonoS} (int size, short $\ast$buffer)=0
+\item 
+virtual void \hyperlink{classProcessor_ae3fc266daadbedfa947e596d3ff98a7c}{processor\+StereoS} (int sizeR, int sizeL, short $\ast$bufferR, short $\ast$bufferL)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is a \hyperlink{classProcessor}{Processor} class 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classProcessor_aa9742b5df48a3c6442d521ce93012fc1}\label{classProcessor_aa9742b5df48a3c6442d521ce93012fc1}} 
+\index{Processor@{Processor}!processor\+MonoE@{processor\+MonoE}}
+\index{processor\+MonoE@{processor\+MonoE}!Processor@{Processor}}
+\subsubsection{\texorpdfstring{processor\+Mono\+E()}{processorMonoE()}}
+{\footnotesize\ttfamily virtual void Processor\+::processor\+MonoE (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{unsigned char $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono E 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ (insert information about the size) \\
+\hline
+{\em buffer} & -\/ (insert information about buffer) \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classEcho_a472cc906604bcb493c6a6c1227436938}{Echo}, \hyperlink{classNoiseGate_ab2965cbd79e9bb7cd5d972967d3da678}{Noise\+Gate}, and \hyperlink{classNormalization_a61d6afdd8530c60ef098c2e404841683}{Normalization}.
+
+\mbox{\Hypertarget{classProcessor_a4cf32c9f7e26383490e8fb49defcc287}\label{classProcessor_a4cf32c9f7e26383490e8fb49defcc287}} 
+\index{Processor@{Processor}!processor\+MonoS@{processor\+MonoS}}
+\index{processor\+MonoS@{processor\+MonoS}!Processor@{Processor}}
+\subsubsection{\texorpdfstring{processor\+Mono\+S()}{processorMonoS()}}
+{\footnotesize\ttfamily virtual void Processor\+::processor\+MonoS (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{short $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Mono S 
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ (insert information about the size) \\
+\hline
+{\em buffer} & -\/ (insert information about buffer) \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classEcho_a298f9fe12295c578737928544c46be1a}{Echo}, \hyperlink{classNoiseGate_a46b2ad11fa1dac657450c2299026bee4}{Noise\+Gate}, and \hyperlink{classNormalization_a432fc3b7ef40314bb4d7a215fddc8d0b}{Normalization}.
+
+\mbox{\Hypertarget{classProcessor_a637904e06d0a3b14f9e1e90fe7f3afbd}\label{classProcessor_a637904e06d0a3b14f9e1e90fe7f3afbd}} 
+\index{Processor@{Processor}!processor\+StereoE@{processor\+StereoE}}
+\index{processor\+StereoE@{processor\+StereoE}!Processor@{Processor}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+E()}{processorStereoE()}}
+{\footnotesize\ttfamily virtual void Processor\+::processor\+StereoE (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{unsigned char $\ast$}]{bufferR,  }\item[{unsigned char $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo E 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ (insert information about the sizeR) \\
+\hline
+{\em bufferR} & -\/ (insert information about bufferR) \\
+\hline
+{\em bufferL} & -\/(info about bufferL) \\
+\hline
+{\em sizeL} & -\/ (insert information about the sizeL) \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classEcho_a92aa2d47f32f5ad0f2cd45121e8d457f}{Echo}, \hyperlink{classNoiseGate_a3b6bbb8efccac794fe3abf6dbbd92c1f}{Noise\+Gate}, and \hyperlink{classNormalization_a27a14c9e1a86b55db654335e79c89782}{Normalization}.
+
+\mbox{\Hypertarget{classProcessor_ae3fc266daadbedfa947e596d3ff98a7c}\label{classProcessor_ae3fc266daadbedfa947e596d3ff98a7c}} 
+\index{Processor@{Processor}!processor\+StereoS@{processor\+StereoS}}
+\index{processor\+StereoS@{processor\+StereoS}!Processor@{Processor}}
+\subsubsection{\texorpdfstring{processor\+Stereo\+S()}{processorStereoS()}}
+{\footnotesize\ttfamily virtual void Processor\+::processor\+StereoS (\begin{DoxyParamCaption}\item[{int}]{sizeR,  }\item[{int}]{sizeL,  }\item[{short $\ast$}]{bufferR,  }\item[{short $\ast$}]{bufferL }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Audio \hyperlink{classProcessor}{Processor} for Stereo S 
+\begin{DoxyParams}{Parameters}
+{\em sizeR} & -\/ (insert information about the sizeR) \\
+\hline
+{\em bufferR} & -\/ (insert information about bufferR) \\
+\hline
+{\em bufferL} & -\/(info about bufferL) \\
+\hline
+{\em sizeL} & -\/ (insert information about the sizeL) \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classEcho_a26ebcc62f7d6be2e3bd4ac1833636549}{Echo}, \hyperlink{classNoiseGate_aa45ac001ec6d3dd7ad935cf92266a285}{Noise\+Gate}, and \hyperlink{classNormalization_a3221f7132aa5feabc417fbf9ce97e290}{Normalization}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{processor_8h}{processor.\+h}\end{DoxyCompactItemize}
