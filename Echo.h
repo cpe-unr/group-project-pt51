@@ -13,18 +13,25 @@ class Echo: public Processor{
   int newDelay;
   public: 
 
+
+      Echo();
+	  
 /**
 * Constructor that takes in the delay for the echo
 */
-      Echo();
+
       Echo(int newDelay);
 
 
 /**
-* Getter and setter for delay
-* @param newDelay - (insert data information) 
+* Getter for delay
+* @param getDelay - (insert data information) 
 */
       int getDelay();
+	  
+/** Setter for delay
+* @param setDelay - (insert data information) 
+*/
       void setDelay(int newDelay);
 
 /**
