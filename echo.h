@@ -65,7 +65,7 @@ class Echo: public Processor{
 * @param bufferL -(info about bufferL)
 * @param sizeL - (insert information about the sizeL)
 */
-      void processorStereoE(int sizeR, int sizeL, short* bufferR, short* bufferL);
+      void processorStereoS(int sizeR, int sizeL, short* bufferR, short* bufferL);
   
 };
 
